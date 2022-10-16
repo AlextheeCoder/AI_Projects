@@ -8,7 +8,7 @@ graph = {
     'J1': [('Mada', 200)],
     'Phase3': [('ParkingLot', 350)],
     'Mada': [('ParkingLot', 700)],
-    # 'ParkingLot':[]
+   
 }
 
 H_table = {
@@ -35,11 +35,7 @@ def path_h_cost(path):
     return h_cost, last_node
 
 
-# path = [('SportsComplex', 0), ('Siwaka', 100), ('Ph.1B', 500)]
-# print(path_h_cost(path))
 
-# path = [('SportsComplex', 0), ('Siwaka', 100), ('Ph.1A', 200)]
-# print(path_h_cost(path))
 
 def Greedy_best_search(graph, start, goal):
     visited = []
