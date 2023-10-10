@@ -1,2 +1,2 @@
-# AI_GROUP_WORK
-The AI group repo.
+# AI_Mini_Projects
+This repository is a collection of small-scale projects focused on artificial intelligence (AI). These projects serve as practical examples and demonstrations of various AI concepts, techniques, and algorithms.
